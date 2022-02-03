@@ -1,6 +1,9 @@
 package Part1;
 
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.RequiredArgsConstructor;
 
 import java.time.LocalDate;
 
@@ -9,7 +12,7 @@ import java.time.LocalDate;
  * Added lombok to classpath
  * **/
 @Data
-@NoArgsConstructor
+//@NoArgsConstructor
 @AllArgsConstructor
 @RequiredArgsConstructor
 public class Employee {
@@ -20,5 +23,5 @@ public class Employee {
     private Department department;
     private double salary;
     private LocalDate dateOfJoining;
-
+    
 }
