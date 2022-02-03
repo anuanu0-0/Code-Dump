@@ -1,4 +1,4 @@
-package Part_1;
+package Part1;
 
 import lombok.*;
 
