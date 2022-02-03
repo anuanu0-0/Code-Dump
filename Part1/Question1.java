@@ -38,7 +38,7 @@ public class Question1 {
         Map<String, Integer> employeeCount = new HashMap<>();
         for(Employee employee: employees) {
             String departmentName = employee.getDepartment().getDepartmentName();
-            int currentCount = 0;
+            int currentCount = 1;
             if(employeeCount.containsKey(departmentName)) {
                 currentCount = employeeCount.get(departmentName) + 1;
             }
