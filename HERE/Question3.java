@@ -86,31 +86,23 @@ class Implementation {
     }
 
     public String capitalizeLastName(List<User> list) {
-        String lastNames = null;
-        for(User user : list) {
-            if(lastNames == null) {
-                lastNames = user.getLastName().toUpperCase();
-            } else {
-                lastNames = lastNames + ", " + user.getLastName().toUpperCase();
-            }
-        }
 
-        return lastNames;
+        return list.stream()
+                .flatMap(user -> Stream.of(user.getLastName().toUpperCase()))
+                .collect(Collectors.joining(", "));
     }
 }
+
 public class Question3 {
     public static void main(String[] args) {
         List<User> list = new ArrayList<>();
         list.add(new User("Scarlet", "FutureAndPromises", 24, Gender.FEMALE));
-        list.add(new User("Test", "JASON", 21, Gender.FEMALE));
+        list.add(new User("Test", "JasSON", 21, Gender.FEMALE));
         list.add(new User("Test2", "LONE", 26, Gender.FEMALE));
 
         Implementation implementation = new Implementation();
         System.out.println(implementation.join(list));
         System.out.println(implementation.longestLastName(list));
         System.out.println(implementation.capitalizeLastName(list));
-
-
-
     }
 }

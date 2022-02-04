@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0148a84-5cd7-4483-ad20-81f04fd17580" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HERE/Question1.java" beforeDir="false" afterPath="$PROJECT_DIR$/HERE/Question1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HERE/Question2.java" beforeDir="false" afterPath="$PROJECT_DIR$/HERE/Question2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HERE/Question3.java" beforeDir="false" afterPath="$PROJECT_DIR$/HERE/Question3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Temp-files/ExceptionImplementation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Temp-files/NumberIsLargerException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Temp-files/NumberIsNegativeException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Temp-files/Salary.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Temp-files/Source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Temp-files/Source2.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +112,7 @@
       <option name="presentableId" value="Default" />
       <updated>1643880019626</updated>
       <workItem from="1643880022227" duration="9266000" />
-      <workItem from="1643965924434" duration="8048000" />
+      <workItem from="1643965924434" duration="8478000" />
     </task>
     <servers />
   </component>
