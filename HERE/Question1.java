@@ -24,7 +24,7 @@ class Salary {
     }
 }
 
-public class Source {
+class Quesion1 {
     public static void main(String[] args) throws Exception{
         Salary obj = new Salary();
         obj.empList.put("CEO", 20000);

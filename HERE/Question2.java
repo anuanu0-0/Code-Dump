@@ -54,7 +54,7 @@ class NumberIsNegativeException extends Exception {
     }
 }
 
-public class Source2 {
+public class Question2 {
     public static void main(String[] args) throws Exception{
         ExceptionImplementation exe = new ExceptionImplementation();
         System.out.println(exe.evaluate(-10, 12000, '/'));
