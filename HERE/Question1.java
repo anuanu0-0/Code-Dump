@@ -1,3 +1,5 @@
+package HERE;
+
 import java.util.HashMap;
 
 class Salary {
