@@ -96,7 +96,7 @@ class Implementation {
 public class Question3 {
     public static void main(String[] args) {
         List<User> list = new ArrayList<>();
-        list.add(new User("Scarlet", "FutureAndPromises", 24, Gender.FEMALE));
+        list.add(new User("Scarlet", "FutureAndPromises", 24, Gender.MALE));
         list.add(new User("Test", "JasSON", 21, Gender.FEMALE));
         list.add(new User("Test2", "LONE", 26, Gender.FEMALE));
 

@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0148a84-5cd7-4483-ad20-81f04fd17580" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HERE/Question3.java" beforeDir="false" afterPath="$PROJECT_DIR$/HERE/Question3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestionOne.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +30,9 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="24asQrnxwm0nsL3U1x0M4Tw7tYA" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -112,7 +117,9 @@
       <option name="presentableId" value="Default" />
       <updated>1643880019626</updated>
       <workItem from="1643880022227" duration="9266000" />
-      <workItem from="1643965924434" duration="8478000" />
+      <workItem from="1643965924434" duration="9481000" />
+      <workItem from="1646227305706" duration="286000" />
+      <workItem from="1646288334514" duration="111000" />
     </task>
     <servers />
   </component>
