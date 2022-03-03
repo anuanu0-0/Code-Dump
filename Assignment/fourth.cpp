@@ -5,19 +5,25 @@ void solve(int n, int* arr, int k) {
     int minEle = *min_element(arr, arr+n);
     int maxEle = *max_element(arr, arr+n);
 
-    int tmax = maxEle, tmin = minEle, freq = 1;
-    while(tmax > tmin*freq) {
-        tmin = minEle;
-        tmin*=freq++;
-    }
-
-
     int minMoves = 0;
     if(maxEle == minEle) {
         cout << minMoves << endl;
-    } else if(){
-        
+        return;
     }
+
+    int rem = maxEle % k;
+    for(int i=0; i<n; i++) {
+        if(arr[i] % k != rem) {
+            cout << -1 << endl;
+            return;
+        } 
+    }
+
+    int count = 0;
+    for(int i=0; i<n; i++) {
+        count += (maxEle - arr[i])/k;
+    }
+    cout << count << endl;
 }
 
 int main() {
